@@ -1,0 +1,208 @@
+.logoCentral {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+
+}
+
+body {
+  background-image: url("images/fondo page777.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  min-width:800px;        
+  width: auto !important;  
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FD6;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #E26241;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #E26241;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #E26241;
+  color: white;
+}
+
+#registro {
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  align-content:center;
+  background-color: #E26241;
+  outline-width: 30%;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+}
+
+#registroP {
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  align-content:center;
+  background-color: #E26241;
+  outline-width: 30%;
+}
+
+#registroContent{
+  width: 90%;
+}
+
+.textoEncima {
+  color: white;
+  font-size: 18px;
+  margin-top: 4%;
+  width: 20%;
+}
+
+#Enviar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  padding: 14px 40px;
+}
+
+input {
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+
+.cabecera1{
+  width: 49%;
+  float: left;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color:white;
+  font-size: 26px;
+  font-family: verdana;
+}
+
+.input1{
+  width: 49%;
+  float: left;
+  text-align: center;
+}
+.cabecera2{
+  width: 98%;
+  float: left;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color:white;
+  font-size: 26px;
+  font-family: verdana;
+}
+.input2{
+  width: 98%;
+  float: left;
+  text-align: center;
+  margin-bottom:10%;
+}
+footer{
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#nombre{
+  width:50%;
+  max-width: 150px;
+}
+#correo{
+  width: 75%;
+  max-width: 300px; 
+}
+#mensaje{
+  width: 98%;
+  height: 150px;
+  margin-top: 3%;
+  resize: none;
+}
+
+
+/* CSS Para About */
+.texto3{
+  padding: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 150%;
+}
+
+#texto4{
+  margin-top: 5%;
+}
+
+.ima{
+  width: 100%;
+  text-align: center;
+  margin-top:10px;
+}
+
+
+#buttonfade {
+  width: 150px; 
+  height: 75px; 
+  background-color: #E26241; 
+  font-size: 17px;
+  border: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  color: white;
+}
